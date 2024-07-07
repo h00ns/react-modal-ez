@@ -1,0 +1,32 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.15.3",
+    "@vanilla-extract/next-plugin": "^2.4.3",
+    "@vanilla-extract/recipes": "^0.5.3",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-modal-ez": "workspace:^",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-syntax-highlighter": "^15",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "next-sitemap": "^4.2.3",
+    "typescript": "^5"
+  }
+}

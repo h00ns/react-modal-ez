@@ -1,0 +1,47 @@
+{
+  "name": "react-modal-ez",
+  "description": "Try using modals easily and simply in React with react-modal-ez!",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h00ns/react-modal-ez"
+  },
+  "homepage": "react-modal-ez.site",
+  "author": {
+    "name": "h00ns",
+    "email": "01052405583a@gmail.com"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "modal",
+    "dialog",
+    "overlay",
+    "react",
+    "react-modal",
+    "react-modal-ez",
+    "react-component"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "rollup": "rm -rf dist && rollup -c --bundleConfigAsCjs"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.3",
+    "@types/rollup-plugin-peer-deps-external": "^2",
+    "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https:react-modal-ez.site
+
+# Sitemaps
+Sitemap: https:react-modal-ez.site/sitemap.xml

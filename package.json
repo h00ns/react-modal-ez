@@ -1,0 +1,16 @@
+{
+  "name": "hoon",
+  "version": "1.0.0",
+  "license": "MIT",
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "packages/*",
+    "site/**"
+  ],
+  "scripts": {
+    "dlx:vscode": "yarn dlx @yarnpkg/sdks vscode"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}

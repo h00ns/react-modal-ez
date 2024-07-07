@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: black;
+  width: 16px;
+  height: 16px;
+}

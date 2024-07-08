@@ -11,17 +11,12 @@ export default function Header() {
         Try using modals easily and simply in React with react-modal-ez!
       </Typography>
       <div className={linkWrapStyle}>
-        <a href="https://github.com/h00ns" target="_blank">
-          <Typography variant="b5" color="gray">
-            created @h00ns
-          </Typography>
-        </a>
         <a href="https://github.com/h00ns/react-modal-ez" target="_blank">
           <Typography variant="b5" color="gray">
             Git Repository
           </Typography>
         </a>
-        <a href="https://github.com/h00ns" target="_blank">
+        <a href="https://www.npmjs.com/package/react-modal-ez" target="_blank">
           <Typography variant="b5" color="gray">
             NPM
           </Typography>

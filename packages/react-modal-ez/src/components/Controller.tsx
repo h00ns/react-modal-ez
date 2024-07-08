@@ -32,10 +32,10 @@ export function Controller({
   const positionCss = position ? css[`position-${position}`] : null;
 
   const style: CSSProperties = {
-    top,
-    bottom,
-    left,
-    right,
+    top: typeof top === "number" ? `${top}px` : top,
+    bottom: typeof bottom === "number" ? `${bottom}px` : bottom,
+    left: typeof left === "number" ? `${left}px` : left,
+    right: typeof right === "number" ? `${right}px` : right,
   };
 
   if (dimmed) {

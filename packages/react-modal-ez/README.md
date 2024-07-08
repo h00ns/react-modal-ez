@@ -2,6 +2,9 @@
 
 Try using modals easily and simply in React with react-modal-ez!
 
+[DOCS](https://react-modal-ez.site)
+[NPM](https://www.npmjs.com/package/react-modal-ez)
+
 ## Installation
 
 Please install using the following command.
